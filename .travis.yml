@@ -20,7 +20,5 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: $HEROKU_API_KEY
+    secure: $API_KEY_HEROKU
   app: devopslabs-gbscal
-  on:
-    repo: gabriel-scalione/DevOpsLab-HelloWorld
