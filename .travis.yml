@@ -20,5 +20,5 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: $API_KEY_HEROKU
+    secure: 1b7c0aa3-c9c5-42b6-acd6-65a034b7b565
   app: devopslabs-gbscal
